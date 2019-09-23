@@ -2,7 +2,7 @@
     "name": "Winted",
     "version": "1.0",
     "description": "Wrap Vinted - provide customized ease-of-use functionality on Vinted.fr",
-    "permissions": ["declarativeContent", "storage"],
+    "permissions": ["activeTab", "declarativeContent", "storage"],
     "background": {
         "scripts": ["background.js"],
         "persistent": false

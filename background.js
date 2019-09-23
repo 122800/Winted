@@ -1,7 +1,7 @@
 "use strict";
 
 chrome.runtime.onInstalled.addListener(function() {
-    chrome.storage.sync.set({color: '#A66'}, function() {
+    chrome.storage.sync.set({color: '#AA6666'}, function() {
         console.log("init");
     });
 
